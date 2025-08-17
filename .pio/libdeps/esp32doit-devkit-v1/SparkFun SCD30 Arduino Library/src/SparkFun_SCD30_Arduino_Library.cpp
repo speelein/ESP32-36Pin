@@ -67,7 +67,7 @@ bool SCD30::begin(TwoWire &wirePort, bool autoCalibrate, bool measBegin)
   // Check for device to respond correctly
   if (beginMeasuring() == true) // Start continuous measurements
   {
-    setMeasurementInterval(15);             // 2 seconds between measurements
+    setMeasurementInterval(20);             // 2 seconds between measurements
     setAutoSelfCalibration(autoCalibrate); // Enable auto-self-calibration
 
     return (true);
