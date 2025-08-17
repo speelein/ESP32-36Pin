@@ -2,8 +2,11 @@
 
 // put function declarations here:
 #include <Wire.h>
-
+#include <Adafruit_Sensor.h>
 #include "SparkFun_SCD30_Arduino_Library.h" //Click here to get the library: http://librarymanager/All#SparkFun_SCD30
+//#define I2C_SDA 11
+//#define I2C_SCL 12
+
 SCD30 airSensor;
 
 void setup() 
