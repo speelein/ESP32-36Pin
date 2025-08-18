@@ -114,7 +114,7 @@ void loop() {
     else
         Serial.println("Waiting for new data");
 
-    delay(10000);
+    delay(30000);
 
 
   
